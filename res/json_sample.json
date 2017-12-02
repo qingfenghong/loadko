@@ -1,0 +1,12 @@
+{
+"Driver":[
+	{"name":"sys_init_base.ko"},
+	{"name":"i2c.ko"},
+	{"name":"spi.ko spi_mode=2"},
+	{"name":"rs485.ko"},
+	{"name":"adv7441a.ko hdmi_port=1 signal_input_mode=5 edid_port=0"},
+	{"name":"gv7704.ko"},
+	{"name":"tlv_320aic31.ko chip_count=2 i2c_select_mode=2 mclk_source=1"},
+	{"name":"it66121.ko"},
+	{"name":"touch_key_board.ko board_type=1"}
+]}
